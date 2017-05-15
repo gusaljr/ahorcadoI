@@ -1,2 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jjwOwCqPEeekHNCfpLyYPA" name="RootElement"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jjwOwCqPEeekHNCfpLyYPA" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="_DSQn4CqQEeekHNCfpLyYPA" name="Partida">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_A66gkCqREeekHNCfpLyYPA" name="tiempo">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <defaultValue xmi:type="uml:TimeExpression" xmi:id="_38glsCqREeekHNCfpLyYPA" name="int "/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DKA_8CqSEeekHNCfpLyYPA" name="experiencia">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ijFfICqTEeekHNCfpLyYPA" name="abecedarios"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ng-sYCqVEeekHNCfpLyYPA" name="palabra" type="_SVpnMCqTEeekHNCfpLyYPA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hgDC4CqVEeekHNCfpLyYPA" name="monigote" type="_9ZGC0CqUEeekHNCfpLyYPA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yQhEgCqXEeekHNCfpLyYPA" name="Jugador" type="_88sFkCqSEeekHNCfpLyYPA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_88sFkCqSEeekHNCfpLyYPA" name="Jugador">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-r4LQCqSEeekHNCfpLyYPA" name="nombrejugador"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_EpupwCqTEeekHNCfpLyYPA" name="experiencia"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WcNFgCqWEeekHNCfpLyYPA" name="NumeroDePartidasJugadas"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_9ryAMCqSEeekHNCfpLyYPA" name="Jugador">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_9ryAMSqSEeekHNCfpLyYPA" name="nombreJugador" visibility="public">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </nestedClassifier>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SVpnMCqTEeekHNCfpLyYPA" name="Palabras">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ze6I4CqTEeekHNCfpLyYPA" name="palabra"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_enrZgCqTEeekHNCfpLyYPA" name="dificultad"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9ZGC0CqUEeekHNCfpLyYPA" name="Monigote">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_C3sZgCqVEeekHNCfpLyYPA" name="extremidades[]"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QruUoCqWEeekHNCfpLyYPA" name="Attribute1">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_Uq11kCqWEeekHNCfpLyYPA">
+        <body></body>
+      </ownedComment>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Model>
